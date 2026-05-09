@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<audio id="correct" src="correct.mp3"></audio>
+<audio id="wrong" src="wrong.mp3"></audio>
+
+
+<body>
+  
+   <h1>How well do you know me?</h1>
+   <h2>(Volume up your sound)</h2>
+
+   <button onclick="document.getElementById('bgmusic').play()">Play Music</button><br>
+   <audio id="bgmusic" src="Frostrelic.mp3" loop></audio>
+
+
+  <p class="patata">Question 1: What is my favorite color?</p>
+  <div style="text-align: center;">
+    <p id="result"></p></div>
+  <div class="option"> 
+      <button onclick="check('black')">Black</button>
+      <img src="C:\Users\linat\PROJECTS\Quiz\4ae82e7afba4f3536e05ad28e32b7b37.jpg">
+ </div>
+
+ <div class="option">
+      <button onclick="check('red')">Red</button>
+      <img src="C:\Users\linat\PROJECTS\Quiz\1303986.jpg">
+ </div>
+   
+ <div class="option">
+      <button onclick="check('pink')">Pink</button>
+      <img src="C:\Users\linat\PROJECTS\Quiz\9b08cd5c6112f12108e536bc037d3733.jpg">
+ </div>
+      
+
+
+
+  <p class="patata">Question 2: What do I prefer?</p>
+  <div style="text-align: center;">
+    <p id="result2"></p>
+  </div>
+  <div class="option"> 
+  <div class="option">
+      <button onclick="check2('water')">Water</button>
+      <img src="C:\Users\linat\PROJECTS\Quiz\does-cold-water-hydrate-you-better-what-experts-really-say-1751589680103_1280.webp">
+  </div>
+
+  <div class="option">
+      <button onclick="check2('energydrinks')">Energy drinks</button>
+      <img src="C:\Users\linat\Downloads\electric-blue-monster-energy-drink.webp">
+  </div>
+  
+  <div class="option">
+      <button onclick="check2('coffee')">Coffee</button>
+      <img src="C:\Users\linat\PROJECTS\Quiz\cup-coffee-coffee-beans-latte-art_948658-86.avif">
+  </div>
+      
+    
+
+
+ <p class="patata">Question 3: For what animal do I have a soft spot?</p>
+ <div style="text-align: center;">
+    <p id="result3"></p></div>
+
+ <div class="option">
+      <button onclick="check3('cats')">Cats</button>
+      <img src="C:\Users\linat\PROJECTS\Quiz\7bc2fcd6888cfd11b76c9754ceda4e8c.jpg">
+ </div>
+   
+<div class="option">
+     <button onclick="check3('dogs')">Dogs</button>
+     <img src="C:\Users\linat\PROJECTS\Quiz\d78045fa2a392993e5b46b024b57fb79.jpg">
+</div>
+
+<div class="option">
+     <button onclick="check3('turtles')">Turtles</button>
+     <img src="C:\Users\linat\PROJECTS\Quiz\2ce1ef9221be43d6edb7bc86872fa0fe.jpg">
+</div>
+   
+
+  
+    
+
+<p class="patata">Question 4: What flavor do I prefer? </p>
+<div style="text-align: center;">
+    <p id="result4"></p>
+  </div>
+<div class="option">
+     <button onclick="check4('chocolate')">Chocolate</button>
+     <img src="C:\Users\linat\PROJECTS\Quiz\Delicious-Chocolate-Ice-Cream-Recipe-1024x1024.webp">
+</div>
+  
+<div class="option">
+    <button onclick="check4('strawberry')">Strawberry</button>
+   <img src="C:\Users\linat\PROJECTS\Quiz\strawberry-ice-cream.webp">
+</div>
+
+<div class="option">
+   <button onclick="check4('pistachio')">Pistachio</button>
+  <img src="C:\Users\linat\PROJECTS\Quiz\Pistachio-Ice-Cream-Served-with-Fresh-Pistachios-scaled.webp">
+</div>
+    
+   
+    
+
+ <p class="patata">Question 5: How many languages do I speak? </p>
+ <div style="text-align: center;">
+    <p id="result5"></p>
+  </div>
+ <div class="option">
+     <button onclick="check5('two')">Two</button>
+     <img src="C:\Users\linat\PROJECTS\Quiz\6678b20b8b4306eebec64daca9948fda.jpg">
+ </div>
+
+ <div class="option">
+     <button onclick="check5('three')">Three</button>
+     <img src="C:\Users\linat\PROJECTS\Quiz\cf7afb7625d502152d4756a82e4521d6.jpg">
+ </div>
+    
+ <div class="option">
+     <button onclick="check5('four')">Four</button>
+     <img src="C:\Users\linat\PROJECTS\Quiz\8556ee8c5bb9999357520a0454ac1b48.jpg">
+ </div>
+   
+     
+    
+    
+
+<p class="patata">Question 6: What is my biggest fear?</p>
+<div style="text-align: center;">
+    <p id="result6"></p>
+  </div>
+<div class="option">
+     <button onclick="check6('homeless')">Being homeless</button>
+     <img src="C:\Users\linat\PROJECTS\Quiz\323e214e92e20cfb0029451d6a2c2ab1.jpg">
+</div>
+
+  <div class="option">
+     <button onclick="check6('person')">Being abandoned</button>
+     <img src="C:\Users\linat\PROJECTS\Quiz\6682b178e311bf6d5ff49b003f639c8a.jpg">
+</div>
+
+  <div class="option">
+      <button onclick="check6('creepy')">Creepy places</button>
+      <img src="C:\Users\linat\PROJECTS\Quiz\3b6c88294edb7ac0a478be3ce6372964.jpg">
+</div>
+   
+   
+    
+
+
+ <p class="patata">Question 7: What is my biggest insecurity? </p>
+ <div style="text-align: center;">
+    <p id="result7"></p>
+  </div>
+ <div class="option">
+  <button onclick="check7('cheeks')">My cheeks</button>
+     <img src="C:\Users\linat\PROJECTS\Quiz\2597b7b7d88108025544d92c7ecd1c79.jpg">
+ </div>
+
+ <div class="option">
+     <button onclick="check7('feet')">My feet size</button>
+     <img src="C:\Users\linat\PROJECTS\Quiz\3698abbe793292daf4c96a4d3e3257f7.jpg">
+ </div>
+
+ <div class="option">
+     <button onclick="check7('hands')">My hands</button>
+     <img src="C:\Users\linat\PROJECTS\Quiz\03705bc460af3374f0b24f7eef009f60.jpg">
+ </div>
+   
+    
+    
+    
+
+ <p class="patata">Question 8: What sport did I do as a kid? </p>
+ <div style="text-align: center;">
+    <p id="result8"></p>
+  </div>
+  <div class="option">
+      <button onclick="check8('karate')">Karate</button>
+      <img src="C:\Users\linat\PROJECTS\Quiz\91d2385d6e39408d4229f7a977fda6e5.jpg">
+  </div>
+
+   <div class="option">
+      <button onclick="check8('swimming')">Swimming</button>
+      <img src="C:\Users\linat\PROJECTS\Quiz\8cd84754d27700005bfed6b02853f7be.jpg">
+   </div>
+
+    <div class="option">
+      <button onclick="check8('football')">Football</button>
+      <img src="C:\Users\linat\PROJECTS\Quiz\9b5a41581d6d1eec812130060d48541e.jpg" >
+    </div>
+   <
+    
+   
+    
+
+<p class="patata">Question 9: What is my dream job?</p>
+<div style="text-align: center;">
+    <p id="result9"></p>
+  </div>
+<div class="option">
+   <button onclick="check9('teacher')">Teacher</button>
+   <img src="C:\Users\linat\PROJECTS\Quiz\b84af1073b7ab9e3f248c406252d9e65.jpg">
+</div>
+
+<div class="option">
+  <button onclick="check9('marketing')">Digital marketing</button>
+  <img src="C:\Users\linat\PROJECTS\Quiz\a56b0e605433f6d8e84ca0929c73f819.jpg">
+</div>
+
+<div class="option">
+  <button onclick="check9('surgeon')">Surgeon</button>
+  <img src="C:\Users\linat\PROJECTS\Quiz\e9c7a196fd9171a1419e610d03ede36a.jpg">
+</div>
+   
+    
+  
+</body>
+   
+</html>
+
+
+
+<script>
+  let score = 0;
+  let answered1 = false;
+  let answered2 = false;
+  let answered3 = false;
+  let answered4 = false;
+  let answered5 = false;
+  let answered6 = false;
+  let answered7 = false;
+  let answered8 = false;
+  let answered9 = false;
+  
+
+
+  function check(answer) {
+if(answered1) return;
+answered1= true;
+    if(answer==='black') {
+        score++;
+        document.getElementById('correct').play();
+        document.getElementById('result').textContent='Correct!';
+        document.getElementById('result').style.color='green';
+    } else{
+       document.getElementById('wrong').play();
+       document.getElementById('result').textContent='WRONG! the correct answer is black';
+       document.getElementById('result').style.color='red';
+    } 
+  }
+
+
+  function check2(answer) {
+if(answered2) return;
+answered2= true;
+    if(answer==='coffee') {
+        score++;
+        document.getElementById('correct').play();
+        document.getElementById('result2').textContent='Correct!';
+        document.getElementById('result2').style.color='green';
+    } else{
+       document.getElementById('wrong').play();
+       document.getElementById('result2').textContent='WRONG! the correct answer is coffee';
+       document.getElementById('result2').style.color='red';
+    } 
+  }
+
+
+  function check3(answer) {
+if(answered3) return;
+answered3= true;
+    if(answer==='cats') {
+        score++;
+        document.getElementById('correct').play();
+        document.getElementById('result3').textContent='Correct!';
+        document.getElementById('result3').style.color='green';
+    } else{
+       document.getElementById('wrong').play();
+       document.getElementById('result3').textContent='WRONG! the correct answer is cats';
+       document.getElementById('result3').style.color='red';
+    } 
+  }
+ 
+
+ function check4(answer) {
+if(answered4) return;
+answered4= true;
+    if(answer==='strawberry') {
+        score++;
+        document.getElementById('correct').play();
+        document.getElementById('result4').textContent='Correct!';
+        document.getElementById('result4').style.color='green';
+    } else{
+       document.getElementById('wrong').play();
+       document.getElementById('result4').textContent='WRONG! the correct answer is strawberry';
+       document.getElementById('result4').style.color='red';
+    } 
+  }
+
+ function check5(answer) {
+if(answered5) return;
+answered5= true;
+    if(answer==='three') {
+        score++;
+        document.getElementById('correct').play();
+        document.getElementById('result5').textContent='Correct!';
+        document.getElementById('result5').style.color='green';
+    } else{
+       document.getElementById('wrong').play();
+       document.getElementById('result5').textContent='WRONG! the correct answer is Three! ';
+       document.getElementById('result5').style.color='red';
+    } 
+  }
+
+
+   function check6(answer) {
+if(answered6) return;
+answered6= true;
+    if(answer==='person') {
+        score++;
+        document.getElementById('correct').play();
+        document.getElementById('result6').textContent='Correct!';
+        document.getElementById('result6').style.color='green';
+    } else{
+       document.getElementById('wrong').play();
+       document.getElementById('result6').textContent='WRONG! the correct answer is being abandoned ';
+       document.getElementById('result6').style.color='red';
+    } 
+  }
+
+
+   function check7(answer) {
+if(answered7) return;
+answered7= true;
+    if(answer==='hands') {
+        score++;
+        document.getElementById('correct').play();
+        document.getElementById('result7').textContent='Correct!';
+        document.getElementById('result7').style.color='green';
+    } else{
+       document.getElementById('wrong').play();
+       document.getElementById('result7').textContent='WRONG! the correct answer is my hands! ';
+       document.getElementById('result7').style.color='red';
+    } 
+  }
+
+
+   function check8(answer) {
+if(answered8) return;
+answered8= true;
+    if(answer==='karate') {
+        score++;
+        document.getElementById('correct').play();
+        document.getElementById('result8').textContent='Correct!';
+        document.getElementById('result8').style.color='green';
+    } else{
+       document.getElementById('wrong').play();
+       document.getElementById('result8').textContent='WRONG! the correct answer is Karate! ';
+       document.getElementById('result8').style.color='red';
+    } 
+  }
+
+
+   function check9(answer) {
+if(answered9) return;
+answered9= true;
+    if(answer==='surgeon') {
+        score++;
+        document.getElementById('correct').play();
+        document.getElementById('result9').textContent='Correct!';
+        document.getElementById('result9').style.color='green';
+    } else{
+       document.getElementById('wrong').play();
+       document.getElementById('result9').textContent='WRONG! the correct answer is Surgeon! ';
+       document.getElementById('result9').style.color='red';
+    } 
+  }
+
+
+ 
+
+
+  
+  </script>
+
+ 
