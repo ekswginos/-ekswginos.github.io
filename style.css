@@ -151,3 +151,22 @@ body{
 }
 
 
+@media(max-width: 600px) {
+    .option img{
+        width:100px;
+        height:100px;
+    }
+
+   .option bottom{
+    width: 100px;
+    font-size: 12px;
+   } 
+
+   h1{
+    font-size: 24px;
+   }
+
+   .patata{
+    font-size: 16px;
+   }
+}
