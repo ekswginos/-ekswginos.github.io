@@ -153,19 +153,22 @@ body{
 
 @media(max-width: 600px) {
     .option img{
-        width:100px;
-        height:100px;
+        width:90px;
+        height:90px;
     }
 
-   .option bottom{
-    width: 100px;
-    font-size: 12px;
+   .option button{
+    width: 90px;
+    font-size: 11px;
    } 
 
    h1{
     font-size: 24px;
    }
 
+   .option{
+    margin: 5px;
+   }
    .patata{
     font-size: 16px;
    }
