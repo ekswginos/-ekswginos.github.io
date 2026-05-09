@@ -149,3 +149,8 @@ body{
     background-color: black;
     text-align: center;
 }
+
+
+.option-group{
+    display: flex;
+}
