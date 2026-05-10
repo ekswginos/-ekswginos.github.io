@@ -1,60 +1,59 @@
+h1 {
 
-h1{
-    
     font-family: 'Segoe UI';
     font-size: 70px;
     text-shadow: 3px 4px 0 rgb(255, 255, 255);
-    
+
 }
 
-h2{
+h2 {
     font-size: 30px;
-   text-shadow: 1px 2px 0 white;
+    text-shadow: 1px 2px 0 white;
     margin-top: -50px;
     font-family: monospace;
-    font-style:normal;
+    font-style: normal;
 }
 
-.patata{
-     background-color: rgb(6, 5, 5);
-     color:white;
-     font-size: 50px;
+.patata {
+    background-color: rgb(6, 5, 5);
+    color: white;
+    font-size: 50px;
     background-color: rgba(0, 0, 0, 0.8);
-    display:inline-block;
-   
+    display: inline-block;
+
 }
 
-.hey{
-     font-size: 20px;
+.hey {
+    font-size: 20px;
 }
 
-body{
+body {
     text-align: center;
 }
 
 
-.option{
+.option {
     display: inline-block;
     text-align: center;
     margin: 10px;
-   
+
 }
 
-.option img{
+.option img {
     display: block;
     width: 450px;
     height: 450px;
-     margin-top: 70px;
+    margin-top: 70px;
     margin: 20px;
     object-fit: cover;
     border-radius: 150px;
-   border:solid 5px black;
-   margin-bottom: 200px;
-   
-   
+    border: solid 5px black;
+    margin-bottom: 200px;
+
+
 }
 
-.option button{
+.option button {
     margin-bottom: 5px;
     width: 170px;
     font-size: 28px;
@@ -63,79 +62,79 @@ body{
     border-radius: 7px;
 }
 
-p{
+p {
     font-size: 40px;
-    
+
 }
 
-button{
-     margin-bottom: 20px;
+button {
+    margin-bottom: 20px;
     width: 170px;
     font-size: 28px;
     margin-top: -200px;
     margin-bottom: 100px;
-    background-color:darkslategray;
+    background-color: darkslategray;
     color: aliceblue;
-    
+
 }
 
-body{
+body {
     background-image: url('./Assets/giphy.gif');
     background-size: 1000px;
-    
-   
+
+
 }
 
-#result{
+#result {
     display: inline-block;
     padding: 5px;
     background-color: black;
     text-align: center;
 }
 
-#result2{
+#result2 {
     display: inline-block;
     padding: 5px;
     background-color: black;
     text-align: center;
 }
 
-#result3{
+#result3 {
     display: inline-block;
     padding: 5px;
     background-color: black;
     text-align: center;
 }
 
-#result4{
+#result4 {
     display: inline-block;
     padding: 5px;
     background-color: black;
     text-align: center;
 }
 
-#result5{
+#result5 {
     display: inline-block;
     padding: 5px;
     background-color: black;
     text-align: center;
 }
 
-#result6{
+#result6 {
     display: inline-block;
     padding: 5px;
     background-color: black;
     text-align: center;
 }
 
-#result7{
+#result7 {
     display: inline-block;
     padding: 5px;
     background-color: black;
     text-align: center;
 }
 
-#result8{
+#result8 {
     display: inline-block;
     padding: 5px;
     background-color: black;
@@ -143,7 +142,7 @@ body{
 }
 
 
-#result9{
+#result9 {
     display: inline-block;
     padding: 5px;
     background-color: black;
@@ -152,36 +151,69 @@ body{
 
 
 @media (max-width:600px) {
-     .option img{
-        width:200px ;
-        height: 200px ;
+    .option img {
+        width: 200px;
+        height: 200px;
         margin: -5px;
         border-radius: 70px;
         margin-bottom: 40px;
-         border:solid 2px black;
-     }
+        border: solid 2px black;
+    }
 
-     .option button{
-        width: 110px ;
-        font-size: 25px ;
+    .option button {
+        width: 110px;
+        font-size: 25px;
         margin-bottom: 20px;
-     }
+    }
 
-    h1{
+    h1 {
         font-size: 50px;
     }
 
-    h2{
+    h2 {
         margin-top: 3px;
         font-size: 30;
     }
-     .patata{
-        font-size: 30px ;
-        margin-top: 100px;
-     }
 
-     #result{
+    .patata {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    #result {
         font-size: 25px;
-     }
-     }
-    
+    }
+
+    #result2 {
+        font-size: 25px;
+    }
+
+    #result3 {
+        font-size: 25px;
+    }
+
+    #result4 {
+        font-size: 25px;
+    }
+
+    #result5 {
+        font-size: 25px;
+    }
+
+    #result6 {
+        font-size: 25px;
+    }
+
+    #result7 {
+        font-size: 25px;
+    }
+
+    #result8 {
+        font-size: 25px;
+    }
+
+    #result9 {
+        font-size: 25px;
+    }
+
+}
