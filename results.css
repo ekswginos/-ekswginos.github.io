@@ -2,7 +2,7 @@
 h1{
     text-align: center;
     border: solid black;
-
+    font-size: 70px;
 }
 
 
@@ -12,14 +12,3 @@ body{
     
 }
 
-@media (max-width:600px) {
-
-    h1{
-        font-size: 120px;
-    }
-
-    #score{
-        font-size: 100px;
-    }
-
-}
