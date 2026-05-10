@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+    <link rel="stylesheet" href="results.css">
+    <style>
+        body{
+            text-align: center;
+        }
+
+        h1{
+           margin-top: 50px;
+           font-size: 40px;
+        }
+        #score{
+            font-size: 30px;
+            margin-top: 40px;
+            text-shadow: 1px 0 2px blueviolet;
+        }
+    </style>
+</head>
+
 <body>
     <h1>Your Results!</h1>
     <p id="score"></p>
-    <script>
-const score=localStorage.getItem('score');
-const total= localStorage.getItem('total');
-document.getElementById('score').textContent='You got' +score+'/'+total+'!'
+    <script class="scri">
+        const score = localStorage.getItem('score');
+        const total = localStorage.getItem('total');
+        document.getElementById('score').textContent = 'You got ' + score + '/' + total + ' !'
 
     </script>
-     
+
 
 
 
