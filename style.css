@@ -151,3 +151,19 @@ body{
 }
 
 
+@media (max-width:600px) {
+     .option img{
+        width:90px;
+        height: 90px;
+     }
+
+     .option button{
+        width: 90px;
+        font-size: 11px;
+     }
+
+
+     .option{
+        margin: 5px;
+     }
+}
