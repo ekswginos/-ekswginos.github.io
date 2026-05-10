@@ -153,17 +153,18 @@ body{
 
 @media (max-width:600px) {
      .option img{
-        width:90px;
-        height: 90px;
+        width:150px;
+        height: 150px;
      }
 
      .option button{
-        width: 90px;
-        font-size: 11px;
+        width: 150px;
+        font-size: 14px;
      }
 
 
-     .option{
-        margin: 5px;
+     .patata{
+        font-size: 18px;
+     }
      }
 }
