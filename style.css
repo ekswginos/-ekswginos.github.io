@@ -216,4 +216,7 @@ body {
         font-size: 25px;
     }
 
+    body{
+        background-size: 600px;
+    }
 }
