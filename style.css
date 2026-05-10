@@ -156,8 +156,9 @@ body{
         width:200px ;
         height: 200px ;
         margin: -5px;
-        border-radius: 50px;
+        border-radius: 70px;
         margin-bottom: 40px;
+         border:solid 2px black;
      }
 
      .option button{
